@@ -1,0 +1,38 @@
+<input disabled="" id="20182w102517001" onclick="selectKT(20182w102517001,'150','152','孙子兵法与人生智慧','w102517','2');" type="button" value="选课"/>
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>选课提示信息</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF_8" />
+<link href="/css/base_eng.css" rel="stylesheet" type="text/css">
+</head>
+<body class="bodymain">
+    <div class="divmsg mtop15 wid98b">
+        <div class="divmsgtitle">
+            <b>选课结果</b></div>
+        <div class="divmsgtxt">
+            <ul>
+                <li>
+                
+                
+                   本学期公选课已选两门，如需选择请先退选！
+                
+                </li>
+                
+            </ul>
+            <div class="ptop15 pbom5">
+                <input type="button" value="查看已选课程" onClick="location='/zxqstudentcourse/zxqalreadycourse.action';"
+                    style="width: 100px" />
+				<input type="button" value="继续选课" onClick="location='/zxqstudentcourse/zxqremian.action';" style="width:80px" />
+					
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
